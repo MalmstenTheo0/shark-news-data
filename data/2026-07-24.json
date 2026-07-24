@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24T16:17:39-03:00",
+  "summary": "La jornada combina un nuevo modelo de Claude con señales claras de que los agentes necesitan límites operativos y de seguridad. Destacan vulnerabilidades por inyección de prompts, mejoras de análisis estático y parches accionables para infraestructura y comunidades de desarrollo.",
+  "items": [
+    {
+      "title": "Claude Opus 5",
+      "summary": "Anthropic lanzó Claude Opus 5, un modelo orientado a trabajo de conocimiento, programación e investigación. Para equipos de IA, la novedad importa por su posicionamiento en coste, rendimiento y controles de seguridad para usos de ciberseguridad.",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "category": "ai",
+      "source": "Hacker News"
+    },
+    {
+      "title": "BGP ORIGIN attribute manipulation and its impact on the Internet",
+      "summary": "Cloudflare explica cómo la manipulación del atributo ORIGIN de BGP puede afectar el enrutamiento de Internet. Es una lectura útil para quienes operan redes, CDN o servicios distribuidos: la validación y la observabilidad de rutas siguen siendo controles críticos.",
+      "url": "https://blog.cloudflare.com/bgp-origin-attribute/",
+      "category": "security",
+      "source": "Hacker News"
+    },
+    {
+      "title": "Indirect Prompt Injection Exploits GitHub's AI Agent to Leak Private Repository Data",
+      "summary": "El caso GitLost muestra cómo instrucciones ocultas en issues públicos pueden inducir a flujos agenticos de GitHub a exponer datos privados en comentarios. Al integrar agentes con repositorios, hay que tratar el contenido externo como no confiable y limitar permisos y salidas.",
+      "url": "https://www.infoq.com/news/2026/07/gitlost-github-prompt-injection/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "category": "security",
+      "source": "InfoQ"
+    },
+    {
+      "title": "Article: The Self-Building Agent: A LangChain4j Experiment",
+      "summary": "Un experimento con LangChain4j evalúa a un asistente que diseña, prueba y depura un sistema agentico. Compara los patrones supervisor y workflow, aportando criterios prácticos sobre flexibilidad frente a velocidad de ejecución durante la depuración.",
+      "url": "https://www.infoq.com/articles/self-building-agent-langchain4j/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "category": "ai",
+      "source": "InfoQ"
+    },
+    {
+      "title": "Black Duck Extends Scope and Reach of Code Scanning Tool",
+      "summary": "Coverity añade un servidor MCP para que agentes de código ejecuten análisis locales con el modelo elegido, además de priorización por impacto y detección de IDOR en JavaScript y TypeScript. Puede acelerar el triage de seguridad sin sacar el análisis del flujo DevSecOps.",
+      "url": "https://devops.com/black-duck-extends-scope-and-reach-of-code-scanning-tool/",
+      "category": "security",
+      "source": "DevOps.com"
+    },
+    {
+      "title": "NodeBB Patches Eight AI-Found Flaws Exposing Admin Access and Private Chats",
+      "summary": "NodeBB corrigió ocho fallas de alta severidad halladas por agentes de pentesting con IA; versiones anteriores a 4.14.0 están afectadas y la recomendación es actualizar a 4.14.2. Los administradores de foros deberían priorizar el parche por el riesgo de acceso administrativo y filtración de chats.",
+      "url": "https://thehackernews.com/2026/07/nodebb-patches-eight-ai-found-flaws.html",
+      "category": "security",
+      "source": "The Hacker News"
+    }
+  ]
+}
